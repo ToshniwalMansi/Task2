@@ -60,6 +60,22 @@ https://video-api-r1.onrender.com/api-docs/
 - Git & GitHub
 - Vercel
 
+
+## Screenshots
+
+### Login
+![Login Page](screenshots/login.png)
+
+### Register
+![Register Page](screenshots/register.png)
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Edit Video
+![Edit Video](screenshots/edit-video.png)
+
+
 ## Project Structure
 
 ```text
