@@ -1,32 +1,85 @@
-# React + TypeScript + Vite
+# VideoHub | RBU Video Management
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive video management web application built for the Technical Team recruitment task. 
 
-Currently, two official plugins are available:
+The application integrates a React frontend with the provided REST API to implement authentication and video management functionality.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Deployment
 
-## React Compiler
+https://task2-m3zaqc3c5-munch-53a7.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## GitHub Repository
 
-## Expanding the Oxlint configuration
+https://github.com/ToshniwalMansi/Task2
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## API
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+**Base URL:**  
+https://video-api-r1.onrender.com/api
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+**API Documentation:**  
+https://video-api-r1.onrender.com/api-docs/
+
+## Features
+
+### Authentication
+- User registration
+- User login and logout
+- Authentication token handling
+- `@rbunagpur.in` email validation
+- Protected dashboard
+
+### Video Management
+- Upload videos
+- Fetch all videos
+- Play videos directly on the website
+- Edit video title and description
+- Delete videos
+- Publish and unpublish videos
+- Display video views and status
+
+### UI/UX
+- Responsive design
+- Modern dashboard
+- Login and registration pages
+- Video cards
+- Upload form
+- Edit video modal
+- Loading states
+- Error handling
+
+## Tech Stack
+
+- React
+- TypeScript
+- Vite
+- Axios
+- React Router
+- CSS
+- REST API
+- Git & GitHub
+- Vercel
+
+## Project Structure
+
+```text
+src/
+├── assets/
+├── components/
+│   ├── Navbar.tsx
+│   ├── VideoCard.tsx
+│   └── VideoForm.tsx
+├── pages/
+│   ├── Dashboard.tsx
+│   ├── Login.tsx
+│   └── Register.tsx
+├── routes/
+│   └── ProtectedRoute.tsx
+├── services/
+│   ├── api.ts
+│   ├── auth.ts
+│   └── video.ts
+├── App.css
+├── App.tsx
+├── index.css
+└── main.tsx
