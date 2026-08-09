@@ -70,7 +70,8 @@ https://video-api-r1.onrender.com/api-docs/
 ![Register Page](screenshots/register.png)
 
 ### Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/dashboard1.png)
+![Dashboard](screenshots/dashboard2.png)
 
 ### Edit Video
 ![Edit Video](screenshots/edit-video.png)
